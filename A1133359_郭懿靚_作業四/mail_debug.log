@@ -1,0 +1,31 @@
+SMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.example.com failed: 無法識別這台主機。  (0)SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.example.com failed: 無法識別這台主機。  (0)SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.example.com failed: 無法識別這台主機。  (0)SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.example.com failed: 無法識別這台主機。  (0)SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.example.com failed: 無法識別這台主機。  (0)SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.example.com failed: 無法識別這台主機。  (0)SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.example.com failed: 無法識別這台主機。  (0)SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.example.com failed: 無法識別這台主機。  (0)SMTP Error: Could not connect to SMTP host. Failed to connect to serverSERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2bd5c05f9d0sm191679405ad.31 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2001:b011:e610:3f35:2900:31f4:300b:28e6]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2001:b011:e610:3f35:2900:31f4:300b:28e6]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: [credentials hidden]SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: [credentials hidden]SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2bd5c05f9d0sm191679405ad.31 - gsmtp
+SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2bd5c05f9d0sm191679405ad.31 - gsmtp
+SMTP Error: Could not authenticate.CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2bd5c05f9d0sm191679405ad.31 - gsmtp
+SMTP Error: Could not authenticate.
